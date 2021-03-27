@@ -7,16 +7,6 @@ module mix_column(
     //----------------------------------------------------------------
   	// Mixing the columns.
   	//----------------------------------------------------------------
-	assign d_in = { data_in[0],  
-              data_in[1], 
-              data_in[2], 
-              data_in[3]};
-	assign d_out = { data_out[0],  
-              data_out[1], 
-              data_out[2], 
-              data_out[3]};
-	 
-
     always_comb begin
         if(enc_dec)begin
             { data_out[0],  
